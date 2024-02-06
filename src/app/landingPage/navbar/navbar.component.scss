@@ -1,0 +1,97 @@
+// .mainDiv{
+//     margin-top: 20px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     color: white;
+//     .logo {
+//         width: 80px;
+//         height: 80px;
+//         object-fit: cover;
+//         margin-left: 20px;
+//     }
+// }
+
+// // .logo {
+// //     width: 80px;
+// //     height: 80px;
+// //     object-fit: cover;
+// //     margin-left: 20px;
+// // }
+
+// .sections{
+//     display: flex;
+//     flex-direction: row;   
+//     align-items: center; 
+// }
+
+// .backgroundNumber{
+//     padding: 12px;
+//     background-color: red;
+//     border-radius: 5px;
+//     margin-right: 20px;
+//     display: flex;
+// }
+
+// a{
+//     color: white;
+//     margin-right: 40px;
+// }
+
+// .phone{
+//     width: 20px;
+//     height: 20px;
+//     object-fit: contain;
+//     margin-right: 12px;
+// }
+
+
+nav{
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Raleway';
+    >img{
+        width: 64px;
+        height: 64px;
+    }
+    >div{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >a{
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.phoneBtn{
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    >img{
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+    .phoneBtn{
+        &:hover{
+            background-color: chartreuse;
+            cursor: pointer;
+        }
+    }
+}
