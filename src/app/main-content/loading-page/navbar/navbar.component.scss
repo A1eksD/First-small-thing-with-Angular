@@ -5,7 +5,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-    font-family: 'Raleway';
     >img{
         width: 64px;
         height: 64px;
@@ -24,27 +23,26 @@ nav{
 }
 
 a{
+    font-weight: 500;
     text-decoration: none;
     color: white;
 }
 
 .phoneBtn{
-    background-color: red;
+    background-color: #A00407;
     border-radius: 5px;
     padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 2px solid white;
     >img{
         width: 20px;
         height: 20px;
         margin-right: 12px;
     }
-    .phoneBtn{
-        &:hover{
-            background-color: chartreuse;
-            cursor: pointer;
-        }
+    &:hover{
+        background-color: #bb0205;
     }
 }

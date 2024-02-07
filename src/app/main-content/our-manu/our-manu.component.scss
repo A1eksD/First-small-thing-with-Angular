@@ -1,0 +1,55 @@
+.menu{
+    width: 100%;
+    background-image: url('../../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    img{
+        width: 220px;
+        height: 220px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+    >div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    h2{
+        font-size: 40px;
+        color: #A00705;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    table{
+        display: table;
+        flex-direction: column;
+    }
+    td{ 
+        padding-right: 20px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.dFlex{
+    display: flex;
+}
+
+.dishNameLeft{
+    margin-left: 40px;
+}
+
+.dishNameRight{
+    margin-right: 40px;
+}

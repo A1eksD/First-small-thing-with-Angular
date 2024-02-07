@@ -1,0 +1,36 @@
+.order{
+    font-family: 'Raleway';
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 40px;
+        color: #A00705;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    >img{
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .orderImgPosition{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.howToOrderImgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+}
