@@ -6,7 +6,18 @@ footer{
     padding-left: 80px;
     padding-right: 80px;
     background-color: rgb(27, 27, 27);
-    img{
+    font-family: 'Raleway';
+    a{
+        font-size: 20px;
+        font-weight: 400;
         margin-right: 18px;
+        text-decoration: none;
+        color: white;
+        background-color: aqua;
+        width: 200px;
+        height: 40px;
+        &:hover{
+            color: #FF0000;
+        }
     }
 }
