@@ -1,22 +1,19 @@
+@import './../../../../styles.scss'; // verknüpfe die globale mit aktuellen scss
+
 
 nav{
     padding: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include dFlex($jc: space-between);
     font-size: 20px;
     >img{
         width: 64px;
         height: 64px;
     }
     >div{
-        width: 400px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include dFlex($jc: space-between,$g: 40px);
         >a{
             &:hover{
-                color: red;
+                color: $dark_red; //benutze eine variable
             }
         }
     }
@@ -25,18 +22,18 @@ nav{
 a{
     font-weight: 500;
     text-decoration: none;
-    color: white;
+    @include changeColor(white);
 }
 
+
 .phoneBtn{
-    background-color: #A00407;
-    border-radius: 5px;
+    background-color: $dark_red; //benutze eine variable
     padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: 2px solid white;
+    @include borderStyle(solid); // rufe mit @include die function auf
     >img{
         width: 20px;
         height: 20px;

@@ -3,6 +3,24 @@
     scroll-behavior: smooth;
 }
 
+@mixin borderStyle($bStyle){ // function in css. @mixin in css = function in js
+  border-radius: 5px;
+  border: 2px $bStyle white;
+}
+
+
+@mixin changeColor($color){
+  color: $color;
+}
+
+
+@mixin dFlex($jc: center, $ai: center, $g: 0px){ // default parameter: $ai: center ist standartmäßig immer auf center
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  gap: $g;
+}
+
 /* raleway-100 - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -151,3 +169,5 @@
 .fontRaleway{
   font-family: 'Raleway';
 }
+
+$dark_red: #A00407; //deklariere die variable global
